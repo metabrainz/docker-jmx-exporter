@@ -3,6 +3,7 @@ FROM eclipse-temurin:21.0.9_10-jdk-alpine-3.22
 ENV JAVA_HOME=/opt/java/openjdk
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
+# renovate: datasource=github-release-attachments depname=jmx_exporter packageName=prometheus/jmx_exporter
 ENV JMX_EXPORTER_VERSION="1.5.0"
 ENV JAR_URL="https://github.com/prometheus/jmx_exporter/releases/download/${JMX_EXPORTER_VERSION}/jmx_prometheus_standalone-${JMX_EXPORTER_VERSION}.jar"
 ENV JAR_CHECKSUM="bf4e061dca52169764c484d5931a8513798070db75cd2b6ba8303d20cb2530f1"
