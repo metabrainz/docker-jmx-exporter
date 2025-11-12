@@ -15,7 +15,16 @@
   ],
   "packageRules": [
     {
+        "matchDatasources": "github-release-attachments",
+        "matchDepNames": "jmx_exporter",
         "matchPackageNames": "jmx_prometheus_standalone-*_\\.jar"
+    },
+    {
+        "description": "Stay within established Java major version",
+        "matchDatasources": "docker",
+        "matchPackageNames": "eclipse-temurin",
+        "matchUpdateTypes": "major",
+        "enabled": false
     }
 ]
 }
