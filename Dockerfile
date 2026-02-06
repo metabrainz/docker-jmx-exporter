@@ -1,5 +1,5 @@
 # Some definitions for base image
-FROM eclipse-temurin:21.0.9_10-jdk-alpine-3.22@sha256:9beec3237cb1488f6fb4b584cbead82a0344569f5115c783a42c310126d5f366
+FROM eclipse-temurin:21.0.10_7-jdk-alpine-3.22@sha256:e5138ee5faa9ef7cdbd5503b9147e618ba8c8301a88bef40ea6dc426ac7cfe63
 ENV JAVA_HOME=/opt/java/openjdk
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
