@@ -4,8 +4,8 @@ ENV JAVA_HOME=/opt/java/openjdk
 ENV PATH="${JAVA_HOME}/bin:${PATH}"
 
 # renovate: datasource=github-release-attachments depName=jmx_exporter packageName=prometheus/jmx_exporter
-ENV JMX_EXPORTER_VERSION="1.5.0"
-ENV JMX_EXPORTER_CHECKSUM="bf4e061dca52169764c484d5931a8513798070db75cd2b6ba8303d20cb2530f1"
+ENV JMX_EXPORTER_VERSION="1.6.0"
+ENV JMX_EXPORTER_CHECKSUM="6314f19186eb97023d424f5bdf108269fd86dbb0c70f65809b4d8751d68842b9"
 ENV JAR_URL="https://github.com/prometheus/jmx_exporter/releases/download/${JMX_EXPORTER_VERSION}/jmx_prometheus_standalone-${JMX_EXPORTER_VERSION}.jar"
 
 # App deployment
